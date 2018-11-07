@@ -1,11 +1,28 @@
 <mat-toolbar color="primary">
-  <button mat-icon-button>
-    <mat-icon [inline]="true" svgIcon="headshot"></mat-icon>
-  </button>
+  <span>
+    <a mat-icon-button href="/">
+      <mat-icon [inline]="true" svgIcon="headshot"></mat-icon>
+    </a>
+    Michael Riggs
+  </span>
   <span class="flex-fill-toolbar"></span>
-  <button mat-icon-button>
+  <a mat-icon-button href="https://www.linkedin.com/in/michael-riggs-10101" target="_blank">
     <mat-icon [inline]="true" svgIcon="linkedin"></mat-icon>
-  </button>
+  </a>
 </mat-toolbar>
+
+<mat-grid-list cols="12">
+  <mat-grid-tile colspan=3></mat-grid-tile>
+  <mat-grid-tile colspan=6>
+    <div id="about-me">
+      <h3>About me</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan=3></mat-grid-tile>
+  <mat-grid-tile colspan=12>
+    <div class="parallax"></div>
+  </mat-grid-tile>
+</mat-grid-list>
 
 <router-outlet></router-outlet>
