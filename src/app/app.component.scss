@@ -18,12 +18,29 @@
         padding-top: 75px;
         min-height: 400px;
     }
+
+    &.contact-form {
+        min-height: 650px;
+    }
 }
 
 p {
-    max-width: 800px;
+    width: 800px;
+}
+
+textarea.mat-input-element {
+    resize: none;
+    min-height: 100px;
 }
 
 .full-width {
     width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+mat-card {
+    width: 800px;
 }
