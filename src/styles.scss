@@ -3,7 +3,7 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow-x: hidden;}
 
 .parallax {
   height: 300px; 
@@ -12,7 +12,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  transform: translateZ(-1px) scale(1.5);
 }
 
 .walking-bg {
