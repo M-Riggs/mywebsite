@@ -6,11 +6,23 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .parallax {
-    background-image: url("/assets/walkingDownCorridor.jpg");
-    height: 300px; 
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 300px; 
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.walking-bg {
+  background-image: url("/assets/walkingDownCorridor.jpg");
+}
+
+.leaning-bg {
+  background-image: url("/assets/leaningOnColumn.jpg");
+}
+
+.walking-street-bg {
+  background-image: url("/assets/walkingDownStreet.jpg"); 
 }
