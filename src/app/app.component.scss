@@ -28,6 +28,10 @@ p {
     width: 800px;
 }
 
+.center-text {
+    text-align: center;
+}
+
 textarea.mat-input-element {
     resize: none;
     min-height: 100px;
@@ -43,4 +47,23 @@ textarea.mat-input-element {
 
 mat-card {
     width: 800px;
+}
+
+#dashfly {
+    background: url(../assets/dashfly-image-sprite.gif) no-repeat;
+    height: 61px;
+    width: 190px;
+    background-position: -5px -275px;
+    float: left;
+}
+
+#lenda {
+    width: 190px;
+    height: 61px;
+    float: right;
+}
+
+#lenda img {
+    width: 100%;
+    height: auto;
 }
