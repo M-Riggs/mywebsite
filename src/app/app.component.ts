@@ -34,5 +34,9 @@ export class AppComponent {
     };
 
     this.http.post("http://michael-riggs.com/email.php", postVars).subscribe();
+    this.email = '';
+    this.name = '';
+    this.message = '';
+    this.subject = '';
   }
 }

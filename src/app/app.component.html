@@ -39,26 +39,26 @@
     <div>
       <mat-form-field appearance="outline">
         <mat-label>Name</mat-label>
-        <input matInput placeholder="Name" required (change)="name=$event.target.value">
+        <input matInput placeholder="Name" required (change)="name=$event.target.value" [value]="name">
         <mat-icon matSuffix>perm_identity</mat-icon>
       </mat-form-field>
       <mat-form-field appearance="outline">
         <mat-label>Email</mat-label>
-        <input matInput placeholder="you@example.com" required (change)="email=$event.target.value">
+        <input matInput placeholder="you@example.com" required (change)="email=$event.target.value" [value]="email">
         <mat-icon matSuffix>alternate_email</mat-icon>
       </mat-form-field>
     </div>
     <div>
       <mat-form-field appearance="outline" class="full-width">
         <mat-label>Subject</mat-label>
-        <input matInput placeholder="Subject" required (change)="subject=$event.target.value">
+        <input matInput placeholder="Subject" required (change)="subject=$event.target.value" [value]="subject">
         <mat-icon matSuffix>subject</mat-icon>
       </mat-form-field>
     </div>
     <div>
       <mat-form-field appearance="outline" class="full-width">
         <mat-label>Message</mat-label>
-        <textarea matInput placeholder="What do you want to say?" required (change)="message=$event.target.value"></textarea>
+        <textarea matInput placeholder="What do you want to say?" required (change)="message=$event.target.value" [value]="message"></textarea>
         <mat-icon matSuffix>message</mat-icon>
       </mat-form-field>
     </div>
