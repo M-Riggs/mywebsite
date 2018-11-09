@@ -30,3 +30,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow-x:
 .sitting-bg {
   background-image: url("/assets/sittingAtTrianon.jpg"); 
 }
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+      background-attachment: scroll;
+      transform: none;
+  }
+}
